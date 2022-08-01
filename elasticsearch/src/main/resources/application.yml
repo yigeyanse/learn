@@ -1,0 +1,20 @@
+server:
+  port: 8055
+logging:
+  level:
+   root: info
+
+#spring:
+#  elasticsearch:
+#   uris: http://esserver001:9200
+##spring.elasticsearch.rest.username=elastic
+##spring.elasticsearch.rest.password=123456
+
+spring:
+  datasource:
+    es:
+      url: jdbc:es://http://localhost:9200
+      driver-class-name: org.elasticsearch.xpack.sql.jdbc.jdbc.JdbcDriver
+      mapperLocations: classpath:mybatis/*.xml
+      configLocation: classpath:config/mybatis-config.xml
+
