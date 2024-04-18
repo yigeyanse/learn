@@ -1,0 +1,8 @@
+server:
+  port: 8081
+okta:
+  oauth2:
+    issuer: https://dev-26013966.okta.com/oauth2/default
+    client-id: 0oab1qyqx8JvaMqEC5d7
+    client-secret: qwEQviB_7-zwD03mw6rb4ypPmqwJ3BNpEj4NXwCBjnD2tf0DAGv5ZKAPfSJkZmPa
+    redirect-uri: /baidu.com
