@@ -21,6 +21,8 @@
         <module>qywx</module>
         <module>docker</module>
         <module>elasticsearch</module>
+        <module>multithread</module>
+        <module>oktasso</module>
     </modules>
 
     <properties>
